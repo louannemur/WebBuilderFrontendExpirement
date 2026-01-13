@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURORA | Winter '26 Edition</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cursor follower -->
+    <div class="cursor-glow"></div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-logo">
+            <span class="logo-text">AURORA</span>
+            <span class="logo-badge">Winter '26</span>
+        </div>
+        <div class="nav-links">
+            <a href="#vision" class="nav-link">Vision</a>
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#showcase" class="nav-link">Showcase</a>
+            <a href="#future" class="nav-link">Future</a>
+        </div>
+        <button class="nav-cta">
+            <span>Experience Now</span>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M3 8H13M13 8L8 3M13 8L8 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="aurora-layer aurora-1"></div>
+            <div class="aurora-layer aurora-2"></div>
+            <div class="aurora-layer aurora-3"></div>
+            <div class="stars"></div>
+            <div class="grid-overlay"></div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-badge animate-in">
+                <span class="badge-dot"></span>
+                <span>Introducing Winter '26 Edition</span>
+            </div>
+
+            <h1 class="hero-title">
+                <span class="title-line animate-in delay-1">The Dawn of</span>
+                <span class="title-line title-accent animate-in delay-2">Intelligent</span>
+                <span class="title-line animate-in delay-3">Commerce</span>
+            </h1>
+
+            <p class="hero-subtitle animate-in delay-4">
+                Where Renaissance artistry meets artificial intelligence.<br>
+                150+ innovations that redefine what's possible.
+            </p>
+
+            <div class="hero-ctas animate-in delay-5">
+                <button class="btn btn-primary">
+                    <span>Explore the Edition</span>
+                    <div class="btn-shimmer"></div>
+                </button>
+                <button class="btn btn-secondary">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <circle cx="10" cy="10" r="9" stroke="currentColor" stroke-width="1.5"/>
+                        <path d="M8 7L13 10L8 13V7Z" fill="currentColor"/>
+                    </svg>
+                    <span>Watch Film</span>
+                </button>
+            </div>
+
+            <div class="hero-stats animate-in delay-6">
+                <div class="stat">
+                    <span class="stat-number" data-count="150">0</span>
+                    <span class="stat-label">New Features</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-count="2048">0</span>
+                    <span class="stat-label">Variant Limit</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number" data-count="10">0</span>
+                    <span class="stat-label">AI Agents</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>Scroll to discover</span>
+        </div>
+    </section>
+
+    <!-- Vision Section -->
+    <section class="vision" id="vision">
+        <div class="section-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+        </div>
+
+        <div class="vision-content">
+            <div class="vision-header">
+                <span class="section-tag">Our Vision</span>
+                <h2 class="section-title">
+                    A <em>Renaissance</em> for the<br>modern digital age
+                </h2>
+            </div>
+
+            <div class="vision-text">
+                <p class="lead-text">
+                    Where Renaissance masters wielded paintbrushes and chisels,
+                    today's creators command algorithms and AI. This is not an evolution—
+                    it's a <strong>revolution</strong>.
+                </p>
+
+                <div class="vision-quote">
+                    <blockquote>
+                        "The future of commerce isn't about replacing human creativity—
+                        it's about amplifying it beyond imagination."
+                    </blockquote>
+                    <div class="quote-author">
+                        <div class="author-avatar"></div>
+                        <div class="author-info">
+                            <span class="author-name">Aurora Vision Team</span>
+                            <span class="author-role">Winter '26 Edition</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="vision-cards">
+            <div class="vision-card" data-parallax="0.1">
+                <div class="card-icon">
+                    <svg viewBox="0 0 48 48" fill="none">
+                        <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2"/>
+                        <path d="M24 14V24L30 30" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <h3>Real-Time Intelligence</h3>
+                <p>AI that understands your business in milliseconds, not minutes.</p>
+            </div>
+
+            <div class="vision-card" data-parallax="0.15">
+                <div class="card-icon">
+                    <svg viewBox="0 0 48 48" fill="none">
+                        <rect x="8" y="8" width="32" height="32" rx="4" stroke="currentColor" stroke-width="2"/>
+                        <path d="M16 24H32M24 16V32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <h3>Infinite Scalability</h3>
+                <p>From 100 to 2,048 variants. Boundaries are a thing of the past.</p>
+            </div>
+
+            <div class="vision-card" data-parallax="0.2">
+                <div class="card-icon">
+                    <svg viewBox="0 0 48 48" fill="none">
+                        <path d="M24 4L4 14V34L24 44L44 34V14L24 4Z" stroke="currentColor" stroke-width="2"/>
+                        <path d="M24 24L4 14M24 24V44M24 24L44 14" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </div>
+                <h3>Dimensional Design</h3>
+                <p>Storefronts that breathe, move, and respond to every interaction.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="features-header">
+            <span class="section-tag">Features</span>
+            <h2 class="section-title">150+ ways to transform<br>your commerce</h2>
+        </div>
+
+        <div class="features-grid">
+            <!-- AI Sidekick Feature -->
+            <div class="feature-card feature-large">
+                <div class="feature-visual">
+                    <div class="ai-visualization">
+                        <div class="ai-core"></div>
+                        <div class="ai-ring ai-ring-1"></div>
+                        <div class="ai-ring ai-ring-2"></div>
+                        <div class="ai-ring ai-ring-3"></div>
+                        <div class="ai-particles"></div>
+                    </div>
+                </div>
+                <div class="feature-content">
+                    <span class="feature-tag">AI-Powered</span>
+                    <h3>Sidekick Intelligence</h3>
+                    <p>Design through conversation. Say "make buttons rounder" and watch magic happen.
+                    Your AI companion understands context, intent, and style.</p>
+                    <div class="feature-demo">
+                        <div class="demo-input">
+                            <span class="demo-prompt">></span>
+                            <span class="demo-text typing">Add a trust badge under add-to-cart</span>
+                            <span class="demo-cursor"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Theme Generation -->
+            <div class="feature-card">
+                <div class="feature-icon-wrapper">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 32 32" fill="none">
+                            <rect x="4" y="4" width="24" height="24" rx="4" stroke="currentColor" stroke-width="2"/>
+                            <path d="M4 12H28" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="8" cy="8" r="1.5" fill="currentColor"/>
+                            <circle cx="12" cy="8" r="1.5" fill="currentColor"/>
+                            <circle cx="16" cy="8" r="1.5" fill="currentColor"/>
+                        </svg>
+                    </div>
+                </div>
+                <h3>Theme Generation</h3>
+                <p>Generate, preview, and publish themes from anywhere—even your phone.</p>
+                <div class="feature-glow"></div>
+            </div>
+
+            <!-- A/B Testing -->
+            <div class="feature-card">
+                <div class="feature-icon-wrapper">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 32 32" fill="none">
+                            <path d="M8 6H14V26H8V6Z" stroke="currentColor" stroke-width="2"/>
+                            <path d="M18 6H24V26H18V6Z" stroke="currentColor" stroke-width="2"/>
+                            <path d="M8 16H14" stroke="currentColor" stroke-width="2"/>
+                            <path d="M18 12H24" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                </div>
+                <h3>Native A/B Testing</h3>
+                <p>Test variations of your storefront. Roll out winners automatically.</p>
+                <div class="feature-glow"></div>
+            </div>
+
+            <!-- SimGym -->
+            <div class="feature-card">
+                <div class="feature-icon-wrapper">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 32 32" fill="none">
+                            <circle cx="16" cy="16" r="12" stroke="currentColor" stroke-width="2"/>
+                            <path d="M16 8V16L22 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <circle cx="16" cy="16" r="3" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                </div>
+                <h3>SimGym Testing</h3>
+                <p>AI agents simulate billions of shopping behaviors before you go live.</p>
+                <div class="feature-glow"></div>
+            </div>
+
+            <!-- Horizon Theme -->
+            <div class="feature-card feature-wide">
+                <div class="horizon-preview">
+                    <div class="horizon-window">
+                        <div class="horizon-header">
+                            <div class="horizon-dots">
+                                <span></span><span></span><span></span>
+                            </div>
+                        </div>
+                        <div class="horizon-content">
+                            <div class="horizon-nav"></div>
+                            <div class="horizon-hero">
+                                <div class="horizon-text"></div>
+                                <div class="horizon-btn"></div>
+                            </div>
+                            <div class="horizon-grid">
+                                <div class="horizon-item"></div>
+                                <div class="horizon-item"></div>
+                                <div class="horizon-item"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-content">
+                    <span class="feature-tag">250+ Improvements</span>
+                    <h3>Horizon Theme Evolved</h3>
+                    <p>Smoother animations. More interactive sections. Blazing fast performance.
+                    The theme that sets the standard, now even more powerful.</p>
+                </div>
+            </div>
+
+            <!-- Variant Limit -->
+            <div class="feature-card feature-accent">
+                <div class="variant-visual">
+                    <div class="variant-number">
+                        <span class="variant-old">100</span>
+                        <svg class="variant-arrow" viewBox="0 0 24 24" fill="none">
+                            <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                        <span class="variant-new">2,048</span>
+                    </div>
+                    <div class="variant-label">Variants per product</div>
+                </div>
+                <h3>Shattered Limits</h3>
+                <p>17 years of constraints, eliminated. Complex catalogs, simplified.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Showcase Section -->
+    <section class="showcase" id="showcase">
+        <div class="showcase-bg">
+            <div class="showcase-gradient"></div>
+        </div>
+
+        <div class="showcase-header">
+            <span class="section-tag">Showcase</span>
+            <h2 class="section-title">See it in action</h2>
+        </div>
+
+        <div class="showcase-carousel">
+            <div class="carousel-track">
+                <div class="showcase-item active">
+                    <div class="showcase-visual">
+                        <div class="showcase-screen">
+                            <div class="screen-content screen-ai">
+                                <div class="ai-chat">
+                                    <div class="chat-message user">
+                                        <span>Change the hero section to dark mode</span>
+                                    </div>
+                                    <div class="chat-message ai">
+                                        <div class="ai-avatar"></div>
+                                        <span>Done! I've updated the hero with a dark theme, adjusted contrast ratios, and updated button styles to match.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase-info">
+                        <h3>Conversational Design</h3>
+                        <p>Transform your store with natural language commands</p>
+                    </div>
+                </div>
+
+                <div class="showcase-item">
+                    <div class="showcase-visual">
+                        <div class="showcase-screen">
+                            <div class="screen-content screen-analytics">
+                                <div class="analytics-grid">
+                                    <div class="analytics-card">
+                                        <div class="analytics-chart chart-1"></div>
+                                        <span>Conversions</span>
+                                    </div>
+                                    <div class="analytics-card">
+                                        <div class="analytics-chart chart-2"></div>
+                                        <span>Revenue</span>
+                                    </div>
+                                    <div class="analytics-card">
+                                        <div class="analytics-chart chart-3"></div>
+                                        <span>Traffic</span>
+                                    </div>
+                                    <div class="analytics-card large">
+                                        <div class="analytics-chart chart-4"></div>
+                                        <span>Performance</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase-info">
+                        <h3>Predictive Analytics</h3>
+                        <p>AI-powered insights before you need them</p>
+                    </div>
+                </div>
+
+                <div class="showcase-item">
+                    <div class="showcase-visual">
+                        <div class="showcase-screen">
+                            <div class="screen-content screen-builder">
+                                <div class="builder-sidebar">
+                                    <div class="builder-block"></div>
+                                    <div class="builder-block"></div>
+                                    <div class="builder-block"></div>
+                                </div>
+                                <div class="builder-canvas">
+                                    <div class="builder-section"></div>
+                                    <div class="builder-section active"></div>
+                                    <div class="builder-section"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="showcase-info">
+                        <h3>Visual Builder</h3>
+                        <p>Drag, drop, and design without limits</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-nav">
+                <button class="carousel-btn prev">
+                    <svg viewBox="0 0 24 24" fill="none">
+                        <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </button>
+                <div class="carousel-dots">
+                    <button class="dot active"></button>
+                    <button class="dot"></button>
+                    <button class="dot"></button>
+                </div>
+                <button class="carousel-btn next">
+                    <svg viewBox="0 0 24 24" fill="none">
+                        <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Future Section -->
+    <section class="future" id="future">
+        <div class="future-bg">
+            <div class="future-rays"></div>
+        </div>
+
+        <div class="future-content">
+            <span class="section-tag">The Future</span>
+            <h2 class="future-title">
+                This is just the<br>
+                <span class="highlight">beginning</span>
+            </h2>
+            <p class="future-text">
+                Winter '26 marks the start of a new era. An era where AI doesn't replace creativity—
+                it unleashes it. Where every merchant, regardless of size, has access to enterprise-grade tools.
+                Where the only limit is imagination.
+            </p>
+
+            <div class="future-cta">
+                <button class="btn btn-primary btn-large">
+                    <span>Start Your Journey</span>
+                    <svg viewBox="0 0 24 24" fill="none">
+                        <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="future-features">
+                <div class="future-feature">
+                    <div class="feature-check">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path d="M5 13L9 17L19 7" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <span>Free to start</span>
+                </div>
+                <div class="future-feature">
+                    <div class="feature-check">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path d="M5 13L9 17L19 7" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <span>No credit card required</span>
+                </div>
+                <div class="future-feature">
+                    <div class="feature-check">
+                        <svg viewBox="0 0 24 24" fill="none">
+                            <path d="M5 13L9 17L19 7" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <span>Full AI access</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <span class="logo-text">AURORA</span>
+                <p>Redefining commerce for the AI age.</p>
+            </div>
+
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Product</h4>
+                    <a href="#">Features</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Enterprise</a>
+                    <a href="#">Changelog</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Resources</h4>
+                    <a href="#">Documentation</a>
+                    <a href="#">API Reference</a>
+                    <a href="#">Guides</a>
+                    <a href="#">Blog</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <a href="#">About</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Press</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <span>&copy; 2026 Aurora. All rights reserved.</span>
+            <div class="footer-legal">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Cookies</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
